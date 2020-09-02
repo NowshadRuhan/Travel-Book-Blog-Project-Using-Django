@@ -2,7 +2,7 @@
  Trevel-Book blog project one of my django project. Here, i create a full blog project to use all of blog functionality, using language python framework Django.
 
 ### About Project:
-**In this project i used virtual environment, two apps, media folder, static folder, templates and others pip library/packages.
+**In this project i used virtual environment, two apps, media folder, static folder, templates and others pip library/packages.**
 
 ## About Virtual-Environment:
 virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. This is one of the most important tools that most of the Python developers use.
