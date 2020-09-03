@@ -16,8 +16,16 @@ virtual environment is a tool that helps to keep dependencies required by differ
 ## About Crispy forms in python:
 Django-crispy-forms supports several frontend frameworks, such as Twitter Bootstrap (versions 2, 3, and 4), Uni-form and Foundation. You can also easily adapt your custom company's one, creating your own, see the docs for more information. You can easily switch among them using CRISPY_TEMPLATE_PACK setting variable.
 
-#### Installing django-crispy-forms:
+### Installing django-crispy-forms:
+
 **Install latest stable version into your python environment using pip:**
+- pip install django-crispy-forms
+
+**If you want to install development version (unstable), you can do so doing:**
+- pip install git+git://github.com/django-crispy-forms/django-crispy-forms.git@dev#egg=django-crispy-forms
+
+**Once installed add crispy_forms to your INSTALLED_APPS in settings.py:**
+
 
 
 
