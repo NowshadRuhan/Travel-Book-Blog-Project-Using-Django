@@ -50,7 +50,7 @@ Media files depend upon two configurations,
 1. MEDIA_ROOT,
 2. MEDIA_URL
 
-**In settings.py file:
+**In settings.py file:**
 ```
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
@@ -59,7 +59,7 @@ STATICFILES_DIRS = [
 MEDIA_ROOT  = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 ```
-**In main project urls.py file:
+**In main project urls.py file:**
 ```
 from django.conf.urls import url, include
 from django.contrib import admin
