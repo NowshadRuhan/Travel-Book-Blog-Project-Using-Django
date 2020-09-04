@@ -37,6 +37,24 @@ INSTALLED_APPS = (
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 ```
 
+### About Media Files in Django:
+In Django, files which are uploaded by the user are called Media or Media Files. Here are some examples:
+1. A user uploaded image, pdfs, doc files etc while publishing a post.
+2. Images of products in an e-commerce site.
+3. User's profile image. etc...
+**Just as with static files, to serve media files we have do add some configurations in our settings.py file.**
+
+#### Media Files Configurations:
+Media files depend upon two configurations,
+
+```
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
+MEDIA_ROOT  = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+```
 
 
 
