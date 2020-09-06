@@ -93,6 +93,6 @@ from django.conf.urls.static import static
 1. App-Login:
  - In app login i create one custom model which is connected to Django provided User model in One-To-One connection.
  - And also i create three custom forms for Signup , Profile-update and for profile photo.
- - and i also used django provided UserCreationForm for Signup.
+ - I also used django provided UserCreationForm for Signup and UserChangeForm form profile update.
 
 
