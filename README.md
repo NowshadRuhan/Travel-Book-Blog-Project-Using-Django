@@ -105,4 +105,6 @@ from django.conf.urls.static import static
      - User model and Blog model. **[One-To-Many]**
      - User model and Comment model. **[One-To-Many]**
      - User model and Likes model. **[One-To-Many]**
-
+   - In Comment and Likes custom models i used one of foreign-key from Blog model.
+      - [x]  Blog model and Comment model. **[One-To-Many]**
+      - [x]  Blog model and Likes model. **[One-To-Many]**
