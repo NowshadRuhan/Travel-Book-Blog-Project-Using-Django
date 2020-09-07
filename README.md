@@ -108,3 +108,4 @@ from django.conf.urls.static import static
    - In Comment and Likes custom models i used one of foreign-key from Blog model.
       - [x]  Blog model and Comment model. **[One-To-Many]**
       - [x]  Blog model and Likes model. **[One-To-Many]**
+   - And i also used one of custom form which name CommentForm. For customize Comment model.
