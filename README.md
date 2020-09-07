@@ -91,8 +91,14 @@ from django.conf.urls.static import static
 **In this project i used two web-app this are App_Login & App_Blog .**
 
 1. App-Login:
- - In app login i create one custom model which is connected to Django provided User model in One-To-One connection.
- - And also i create three custom forms for Signup , Profile-update and for profile photo.
- - I also used django provided UserCreationForm for Signup and UserChangeForm form profile update.
+   - In app login i create one custom model which is connected to Django provided User model in One-To-One connection.
+   - And also i create three custom forms for Signup , Profile-update and for profile photo.
+   - I also used django provided UserCreationForm for Signup and UserChangeForm form profile update.
 
+2. App-Blog:
+   - In app-blog i used three custom models. those are..
+     - Blog model, for blog posts.
+     - Comment model, for comment in blogs.
+     - Likes model, for like blogs.
+   
 
