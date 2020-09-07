@@ -100,5 +100,7 @@ from django.conf.urls.static import static
      - Blog model, for blog posts.
      - Comment model, for comment in blogs.
      - Likes model, for like blogs.
-   
+   - In this three custom models i used one of foreign-key from User model.
+   - Relation with User model:
+     - User model and Blog model - [x] **One-To-Many**
 
