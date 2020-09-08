@@ -113,5 +113,5 @@ from django.conf.urls.static import static
 
 
 ## Project home page live short:
-![Travel-Book-Blog-Home](https://github.com/[NowshadRuhan]/[Travel-Book-Blog-Project-Using-Django]/blob/master/blog_home.png?raw=true) 
+![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_home.png?raw=true) 
 
