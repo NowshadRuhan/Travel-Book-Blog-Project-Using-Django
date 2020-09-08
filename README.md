@@ -1,8 +1,7 @@
 # Trevel-Book Blog Project Using Django
+ Trevel-Book blog project one of my django project. Here, i create a full blog project to use all of blog functionality, using language python framework Django.
 
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_home.png?raw=true) 
-
- Trevel-Book blog project one of my django project. Here, i create a full blog project to use all of blog functionality, using language python framework Django.
 
 # About Project:
 **In this project i used virtual environment, two apps, media folder, static folder, templates and others pip library/packages.**
@@ -113,8 +112,4 @@ from django.conf.urls.static import static
       - [x]  Blog model and Likes model. **[One-To-Many]**
    - And i also used one of custom form which name CommentForm. For customize Comment model.
 
-
-
-## Project home page live short:
-![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_home.png?raw=true) 
 
