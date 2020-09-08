@@ -109,3 +109,5 @@ from django.conf.urls.static import static
       - [x]  Blog model and Comment model. **[One-To-Many]**
       - [x]  Blog model and Likes model. **[One-To-Many]**
    - And i also used one of custom form which name CommentForm. For customize Comment model.
+
+ ![alt text](https://islamicprovision.org.uk/resource/assets/img/is3.jpg)
