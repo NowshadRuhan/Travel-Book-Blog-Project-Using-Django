@@ -110,4 +110,8 @@ from django.conf.urls.static import static
       - [x]  Blog model and Likes model. **[One-To-Many]**
    - And i also used one of custom form which name CommentForm. For customize Comment model.
 
- 
+
+
+## Project home page live short:
+![Travel-Book-Blog-Home](https://github.com/[NowshadRuhan]/[Travel-Book-Blog-Project-Using-Django]/blob/master/blog_home.png?raw=true) 
+
