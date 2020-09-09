@@ -3,7 +3,7 @@
 
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_home.png?raw=true) 
 
-# About Project: :simple_smile:
+# About Project:  :smile:
 **In this project i used virtual environment, two apps, media folder, static folder, templates and others pip library/packages.**
 
 ## About Virtual-Environment:
@@ -112,10 +112,10 @@ from django.conf.urls.static import static
       - [x]  Blog model and Likes model. **[One-To-Many]**
    - And i also used one of custom form which name CommentForm. For customize Comment model.
 
-## Travel-Book signup page: :relieved:
+## Travel-Book signup page:  :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_signup.png?raw=true)  
 
-## Travel-Book signup validation: :simple_smile:
+## Travel-Book signup validation:  :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/sign_up_validation.png?raw=true)  
 
 ## Travel-Book Login page:
