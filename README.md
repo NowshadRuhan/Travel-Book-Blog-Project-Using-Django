@@ -123,3 +123,5 @@ from django.conf.urls.static import static
 
 ## Travel-Book Post-Like-Comment page:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_like_comment.png?raw=true)  
+
+**This all about this project, you on developement. Be happy and stay safe.** :sunglasses:
