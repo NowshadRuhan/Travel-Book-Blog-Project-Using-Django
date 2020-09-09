@@ -3,7 +3,7 @@
 
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_home.png?raw=true) 
 
-# About Project:  :smile:
+# About Project:
 **In this project i used virtual environment, two apps, media folder, static folder, templates and others pip library/packages.**
 
 ## About Virtual-Environment:
@@ -118,7 +118,7 @@ from django.conf.urls.static import static
 ## Travel-Book signup validation:  :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/sign_up_validation.png?raw=true)  
 
-## Travel-Book Login page:
+## Travel-Book Login page:  :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_login.png?raw=true)
 
 ## Travel-Book Post-Like-Comment page: :smile:
