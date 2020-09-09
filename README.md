@@ -89,7 +89,7 @@ from django.conf.urls.static import static
 {% load static %}
 ```
 
-## About Project Apps: :simple_smile:
+## About Project Apps: 
 **In this project i used two web-app this are App_Login & App_Blog .**
 
 1. App-Login:
