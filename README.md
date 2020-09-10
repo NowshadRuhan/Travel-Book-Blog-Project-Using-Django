@@ -112,16 +112,16 @@ from django.conf.urls.static import static
       - [x]  Blog model and Likes model. **[One-To-Many]**
    - And i also used one of custom form which name CommentForm. For customize Comment model.
 
-## Travel-Book signup page:  :smile:
+## Travel-Book signup:  :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_signup.png?raw=true)  
 
 ## Travel-Book signup validation:  :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/sign_up_validation.png?raw=true)  
 
-## Travel-Book Login page:  :smile:
+## Travel-Book Login:  :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_login.png?raw=true)
 
-## Travel-Book Post-Like-Comment page: :smile:
+## Travel-Book Post-Like-Comment: :smile:
 ![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_like_comment.png?raw=true)  
 
 **This all about this project, carry on developement. Be happy and stay safe.** :sunglasses:
