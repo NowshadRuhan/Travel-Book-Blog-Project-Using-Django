@@ -98,7 +98,7 @@ from django.conf.urls.static import static
    - I also used django provided UserCreationForm for Signup and UserChangeForm form profile update.
 
 2. App-Blog:
-   - In app-blog i used three custom models. those are..
+   - In app-blog i used three custom models. those are...
      - Blog model, for blog posts.
      - Comment model, for comment in blogs.
      - Likes model, for like blogs.
