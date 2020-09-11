@@ -89,7 +89,7 @@ from django.conf.urls.static import static
 {% load static %}
 ```
 
-## About Project Apps:
+## About Project Apps: 
 **In this project i used two web-app this are App_Login & App_Blog .**
 
 1. App-Login:
@@ -98,7 +98,7 @@ from django.conf.urls.static import static
    - I also used django provided UserCreationForm for Signup and UserChangeForm form profile update.
 
 2. App-Blog:
-   - In app-blog i used three custom models. those are..
+   - In app-blog i used three custom models. those are...
      - Blog model, for blog posts.
      - Comment model, for comment in blogs.
      - Likes model, for like blogs.
@@ -112,4 +112,16 @@ from django.conf.urls.static import static
       - [x]  Blog model and Likes model. **[One-To-Many]**
    - And i also used one of custom form which name CommentForm. For customize Comment model.
 
+## Travel-Book signup:  :smile:
+![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_signup.png?raw=true)  
 
+## Travel-Book signup validation:  :smile:
+![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/sign_up_validation.png?raw=true)  
+
+## Travel-Book Login:  :smile:
+![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_login.png?raw=true)
+
+## Travel-Book Post-Like-Comment: :smile:
+![Travel-Book-Blog-Home](https://github.com/NowshadRuhan/Travel-Book-Blog-Project-Using-Django/blob/master/blog_like_comment.png?raw=true)  
+
+**This all about this project, carry on developement. Be happy and stay safe.** :sunglasses:
