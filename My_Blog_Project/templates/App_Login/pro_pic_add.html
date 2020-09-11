@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title_blog %} Change Pro-Pic | Blog {% endblock %}
+{% block body_block %}
+
+<h2><b>Chnage Your Profile Picture</b></h2>
+{% if user.user_profile  %}
+<img src="/media/{{ user.user_profile.profile_pic }}" class="img-rounded"
+style="border:1px solid gray; border-radius:30px; margin-bottom:5px;" alt="" width="100px">
+{% endif %}
+<form  method="POST" enctype="multipart/form-data">
+
+  {{ form|crispy }}
+  {% csrf_token %}
+  <input type="submit" class="btn btn-outline-info waves-effect" name="submit" value="Submit">
+</form>
+
+
+{% endblock %}

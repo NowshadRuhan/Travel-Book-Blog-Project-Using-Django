@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title_blog %} Update | {{ blog.slug }} | Blog {% endblock %}
+{% block body_block %}
+
+{% if blog.author == user %}
+<h2><b>Edit Blog</b></h2>
+<form  method="POST">
+
+  {{ form|crispy }}
+  {% csrf_token %}
+  <input type="submit" class="btn btn-warning" name="submit" value="Updated">
+
+</form>
+<br>
+{% endif %}
+
+
+
+
+
+
+{% endblock %}

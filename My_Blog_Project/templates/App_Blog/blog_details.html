@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title_blog %} {{ blog.slug }} | Blog {% endblock %}
+{% block body_block %}
+
+<div class="row" >
+  <div class="col-sm-12">
+    <h2>{{ blog.blog_title }}</h2>
+    <h4>Posted By: @<i>{{ blog.author }}</i></h4>
+    <i><h6>Published On: {{ blog.publish_date }}</h6></i>
+    <!-- <i><h6>Updated On: {{ blog.update_date }}</h6></i> -->
+    <img style="text-align:center; height:490px; max-width:1050px;" src="/media/{{ blog.blog_image }}" width="100%">
+  </div>
+
+  <div class="col-sm-12" >
+    <p>{{ blog.blog_content|linebreaks }}</p>
+    <hr>
+    <h6>{{ blog.liked_blog.count }} Likes | {{ blog.blog_comment.count }} Comments</h6>
+    <hr>
+  </div>
+
+
+  {% if not like %}
+    <a href="{% url 'App_Blog:like' pk=blog.pk %}">
+      <abbr title="Like here"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></abbr>
+    </a>
+  {% else %}
+    <a href="{% url 'App_Blog:unlike' pk=blog.pk %}">
+      <abbr title="Already Liked"><i class="fa fa-thumbs-up fa-2x" aria-hidden="true"></i></abbr>
+    </a>
+  {% endif %}
+
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <hr>
+    <h5><u>Comment:</u></h5>
+      <form  method="POST">
+        {{ comment_form|crispy }}
+        {% csrf_token %}
+        <button type="submit" name="submit" class="btn btn-outline-info waves-effect">Comment</button>
+      </form>
+      <hr>
+
+      {% for comment in blog.blog_comment.all %}
+          <a href="#"><b>@{{ comment.user }}</b></a>
+          <h6 style="font-size:12px; font-style:italic;">{{ comment.comment_date }}</h6>
+          <h5 style="font-size:15px;">{{ comment.comment }}</h5>
+          <hr>
+
+      {% endfor %}
+  </div>
+
+</div>
+
+<br>
+<br>
+
+
+
+
+
+{% endblock %}
