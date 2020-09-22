@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title_blog %} Sign-In | Blog {% endblock %}
+{% block body_block %}
+<h2><b>Login in now </b></h2>
+<form  method="POST">
+
+  {{ form|crispy }}
+  {% csrf_token %}
+  <input type="submit" class="btn btn-primary" name="submit" value="Login">
+
+</form>
+<br>
+<p style="font-size:16px; font-style: italic; color: gray;">
+  Don't have an account? <a href="{% url 'App_Login:signup' %}">Sign-up hare</a></p>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load custom_filters %}
+{% load crispy_forms_tags %}
+{% block title_blog %} {{ user }} | Blog {% endblock %}
+{% block body_block %}
+
+
+  {% for blog in user.post_author.all %}
+
+  <h4>{{ blog.blog_title }}</h4>
+  <h6><i>{{ blog.publish_date }}</i></h6>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="/media/{{ blog.blog_image }}" alt="{{ blog.blog_title }}" title="{{ blog.blog_title }}"
+      width="100%" height="450px">
+    </div>
+    <div class="col-sm-8">
+      <p style="font-size: 12px;">{{ blog.blog_content|range_filter|linebreaks }}
+      <span><a href="{% url 'App_Blog:blogDetails' slug=blog.slug %}">Read more</a></span></p>
+      <a href="{% url 'App_Blog:editBlog' slug=blog.slug %}" class="btn btn-info">Edit</a>
+      <h6>{{ blog.liked_blog.count }} Likes | {{ blog.blog_comment.count }} Comments</h6>
+    </div>
+  </div>
+<hr>
+
+
+  {% endfor %}
+
+
+
+
+
+{% endblock %}

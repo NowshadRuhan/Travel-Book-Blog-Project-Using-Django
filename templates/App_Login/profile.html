@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title_blog %} Profile | Blog {% endblock %}
+{% block body_block %}
+<h2><b>Your Profile</b></h2>
+
+{% if user.user_profile  %}
+<img src="/media/{{ user.user_profile.profile_pic }}" class="img-rounded"
+style="border:1px solid gray; border-radius:30px; margin-bottom:5px;" alt="" width="100px">
+<br>
+<a href="{% url 'App_Login:changeProPic' %}" class="btn btn-outline-info waves-effect btn-sm">Change Iamge</a>
+{% else %}
+<img src="/media/profile_pics/demo1.png" class="img-rounded"
+style="border:1px solid gray; border-radius:30px; margin-bottom:5px;" width="100px">
+<br>
+<a href="{% url 'App_Login:addProPic' %}" class="btn btn-outline-info waves-effect btn-sm">Change Iamge</a>
+{% endif %}
+
+<p>Username: {{ user.username }}</p>
+<p>Email: {{ user.email }}</p>
+<p>Name: {{ user.first_name }} {{ user.last_name }}</p>
+
+<a class="btn btn-outline-warning waves-effect" style="color:black; font-style:bold;"
+href="{% url 'App_Login:update' %}">Update Profile</a>
+
+
+{% endblock %}
